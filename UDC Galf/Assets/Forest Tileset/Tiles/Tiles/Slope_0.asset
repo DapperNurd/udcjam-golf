@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Forest_Slope_1
+  m_Name: Slope_0
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -824908481, guid: 99db1edd9ebfb414793d32f72322fd4d, type: 3}
+  m_Sprite: {fileID: 1129848183, guid: 97ed6ae1d3828a84ebf527d9a4935cdf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

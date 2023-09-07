@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 99db1edd9ebfb414793d32f72322fd4d
+guid: 97ed6ae1d3828a84ebf527d9a4935cdf
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Forest_Slope_0
+      name: Slope_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,20 +118,25 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -7}
+        - {x: -7, y: 8}
       tessellationDetail: 0
       bones: []
-      spriteID: ff7575f6fecec6241b3b6d920461a1d2
-      internalID: -194488711
+      spriteID: 1b797e7926378a94ab5db8e1260c5199
+      internalID: 1129848183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Forest_Slope_1
+      name: Slope_1
       rect:
         serializedVersion: 2
         x: 0
@@ -139,14 +144,14 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8314ba3e598752749924eec8f0dda02e
-      internalID: -824908481
+      spriteID: 5f85566878ee21e429877e43d7f4a7a5
+      internalID: 565337345
       vertices: []
       indices: 
       edges: []
@@ -162,8 +167,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Forest_Slope_0: -194488711
-      Forest_Slope_1: -824908481
+      Slope_0: 1129848183
+      Slope_1: 565337345
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
