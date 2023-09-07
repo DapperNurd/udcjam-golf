@@ -27,11 +27,8 @@ public class BallMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0)) {
-            // transform.position = new Vector3(0, -14.5f, 0);
-            // transform.rotation = Quaternion.identity;
-            // rb.velocity = Vector2.zero;
-            // rb.angularVelocity = 0;
+        if(transform.position.y < -20) {
+            Reset();
         }
     }
 
