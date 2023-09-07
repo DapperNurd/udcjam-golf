@@ -31,17 +31,17 @@ public class HitBall : MonoBehaviour
             dragStartPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }
 
-        if(Input.GetMouseButton(0)) {
+        else if(Input.GetMouseButton(0)) {
             dragEndPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2 currentDrag = launchVel + dragEndPos - dragStartPos;
             trajectory.SimulateTrajectory(ball, ball.transform.position, currentDrag);
         }
 
-        if(Input.GetMouseButtonUp(0)) {
+        else if(Input.GetMouseButtonUp(0)) {
             launchVel = launchVel + dragEndPos - dragStartPos;
         }
 
-        if(Input.GetMouseButtonDown(1) && isAiming) {
+        else if(Input.GetMouseButtonDown(1) && isAiming) {
             ballMovementScript.Hit(launchVel);
             launchVel = Vector2.zero;
             isAiming = false;

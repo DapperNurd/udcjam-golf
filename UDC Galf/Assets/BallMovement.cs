@@ -41,6 +41,12 @@ public class BallMovement : MonoBehaviour
             StartCoroutine(CheckWin(1f));
     }
 
+    void OnTriggerExit2D(Collider2D col)
+    {
+        if(col.tag == "Goal")
+            StopAllCoroutines();
+    }
+
     public void Hit(Vector2 vel) {
         rb.angularVelocity = 0;
         rb.velocity = vel * hitPower;
