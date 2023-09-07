@@ -52,10 +52,6 @@ public class BallMovement : MonoBehaviour
         transform.position = startPos;
     }
 
-    public bool IsMoving() {
-        return rb.velocity.magnitude > 0.05f;
-    }
-
     void PlayerWon() {
         Debug.Log("Player won");
     }

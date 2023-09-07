@@ -33,10 +33,11 @@ public class TrajectoryPredict : MonoBehaviour
         var ghostObj = Instantiate(ball, pos, Quaternion.identity);
         ghostObj.GetComponent<SpriteRenderer>().enabled = false;
         SceneManager.MoveGameObjectToScene(ghostObj, simulationScene);
-        ghostObj.GetComponent<BallMovement>().Hit(velocity);
 
         lr.positionCount = totalCalculatedFrames / framesPerCalculation;
-        for(int i = 0; i < totalCalculatedFrames / framesPerCalculation; i++) {
+        lr.SetPosition(0, ghostObj.transform.position); // Manually set the first position before shooting the ball to keep the line renderer starting at the ball's position
+        ghostObj.GetComponent<BallMovement>().Hit(velocity);
+        for(int i = 1; i < totalCalculatedFrames / framesPerCalculation; i++) {
             physicsScene.Simulate(Time.fixedDeltaTime * framesPerCalculation);
             lr.SetPosition(i, ghostObj.transform.position);
         }
