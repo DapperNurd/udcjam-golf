@@ -66,8 +66,8 @@ public class TrajectoryPredict : MonoBehaviour
         var colors = new GradientColorKey[1];
         var alphas = new GradientAlphaKey[3];
 
-        alphas[0] = new GradientAlphaKey(1.0f, 0.0f);
-        alphas[1] = new GradientAlphaKey(1.0f, 0.75f);
+        alphas[0] = new GradientAlphaKey(0.7f, 0.0f);
+        alphas[1] = new GradientAlphaKey(0.7f, 0.9f);
         alphas[2] = new GradientAlphaKey(0.0f, 1.0f);
 
         colors[0] = new GradientColorKey(color, 0.0f);

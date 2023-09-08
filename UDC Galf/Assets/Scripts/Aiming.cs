@@ -36,8 +36,12 @@ public class Aiming : MonoBehaviour
         else if(Input.GetMouseButton(0)) {
             dragEndPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2 currentDrag = launchVel + dragEndPos - dragStartPos;
-            if(currentDrag.magnitude > maxPower)
+            if(currentDrag.magnitude > maxPower) {
                 currentDrag = currentDrag.normalized * maxPower;
+            }
+
+            Debug.Log(currentDrag);
+            Debug.Log(currentDrag.magnitude);
 
             float dragPowerPercent = currentDrag.magnitude / maxPower;
 
@@ -49,8 +53,8 @@ public class Aiming : MonoBehaviour
 
         else if(Input.GetMouseButtonUp(0)) {
             launchVel = launchVel + dragEndPos - dragStartPos;
-            if(launchVel.magnitude > 100)
-                launchVel = launchVel.normalized * 100;
+            if(launchVel.magnitude > maxPower)
+                launchVel = launchVel.normalized * maxPower;
         }
 
         else if(Input.GetMouseButtonDown(1) && isAiming) {

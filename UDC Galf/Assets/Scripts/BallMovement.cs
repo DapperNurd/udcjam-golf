@@ -53,6 +53,7 @@ public class BallMovement : MonoBehaviour
         rb.angularVelocity = 0;
         rb.velocity = Vector2.zero;
         transform.position = startPos;
+        transform.rotation = Quaternion.identity;
     }
 
     void PlayerWon() {

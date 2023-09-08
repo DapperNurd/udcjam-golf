@@ -220,7 +220,7 @@ LineRenderer:
       serializedVersion: 2
       key0: {r: 0, g: 0, b: 0, a: 0.54901963}
       key1: {r: 0, g: 0, b: 0, a: 0.54901963}
-      key2: {r: 1, g: 0, b: 0, a: 0.39607844}
+      key2: {r: 1, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
@@ -235,7 +235,7 @@ LineRenderer:
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 49151
+      atime1: 58982
       atime2: 65535
       atime3: 0
       atime4: 0
@@ -2356,7 +2356,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.44
 --- !u!114 &1770444691
 MonoBehaviour:
   m_ObjectHideFlags: 0
