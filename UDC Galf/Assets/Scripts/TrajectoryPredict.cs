@@ -10,6 +10,7 @@ public class TrajectoryPredict : MonoBehaviour
     PhysicsScene2D physicsScene;
 
     [SerializeField] GameObject tileGrid;
+    [SerializeField] Transform physicsAffectorsParent;
 
     [SerializeField] LineRenderer currentTrajectoryLine;
     [SerializeField] LineRenderer previousTrajectoryLine;
@@ -27,6 +28,12 @@ public class TrajectoryPredict : MonoBehaviour
         var ghostGrid = Instantiate(tileGrid, tileGrid.transform.position, tileGrid.transform.rotation);
         ghostGrid.GetComponentInChildren<TilemapRenderer>().enabled = false;
         SceneManager.MoveGameObjectToScene(ghostGrid, simulationScene);
+
+        foreach(Transform obj in physicsAffectorsParent) {
+            var ghostObj = Instantiate(obj.gameObject, obj.position, obj.rotation);
+            ghostObj.GetComponentInChildren<SpriteRenderer>().enabled = false;
+            SceneManager.MoveGameObjectToScene(ghostObj, simulationScene);
+        }
     }
 
     public void SimulateTrajectory(GameObject ball, Vector2 pos, Vector2 velocity) {

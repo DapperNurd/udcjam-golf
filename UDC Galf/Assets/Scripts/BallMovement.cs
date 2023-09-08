@@ -36,6 +36,10 @@ public class BallMovement : MonoBehaviour
     {
         if(col.tag == "Goal")
             StartCoroutine(CheckWin(1f));
+        else if(col.tag == "Bounce") {
+            rb.velocity = new Vector2(rb.velocity.x, 0);
+            rb.AddForce(Vector2.up * 50f, ForceMode2D.Impulse);
+        }
     }
 
     void OnTriggerExit2D(Collider2D col)

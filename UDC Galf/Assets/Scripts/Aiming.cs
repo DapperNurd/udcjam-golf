@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Aiming : MonoBehaviour
 {
+    [SerializeField] bool debugMode;
+
     [SerializeField] GameObject ball;
     BallMovement ballMovementScript;
 
@@ -40,9 +42,6 @@ public class Aiming : MonoBehaviour
                 currentDrag = currentDrag.normalized * maxPower;
             }
 
-            Debug.Log(currentDrag);
-            Debug.Log(currentDrag.magnitude);
-
             float dragPowerPercent = currentDrag.magnitude / maxPower;
 
             Color lineColor = new Color(2f-(2f-dragPowerPercent*2), 2f-dragPowerPercent*2, 0f, 1f);
@@ -61,6 +60,10 @@ public class Aiming : MonoBehaviour
             trajectory.ClearPreviousTrajectory();
             ballMovementScript.Hit(launchVel);
             isAiming = false;
+        }
+
+        if(debugMode) {
+            trajectory.SimulateTrajectory(ball, ball.transform.position, launchVel);
         }
     }
 }
