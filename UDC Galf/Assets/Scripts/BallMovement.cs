@@ -16,6 +16,8 @@ public class BallMovement : MonoBehaviour
 
     Vector2 startPos;
 
+    [SerializeField] GameManager manager;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -61,15 +63,13 @@ public class BallMovement : MonoBehaviour
     }
 
     void PlayerWon() {
-        Debug.Log("Player won");
+        winStatus = true;
+        manager.ShowMenu(true);
     }
 
     IEnumerator CheckWin(float seconds) {
         yield return new WaitForSeconds(seconds);
         if (col.IsTouchingLayers(LayerMask.GetMask("Goal"))) // Returns whether it is or isn't a second later to make sure it stayed in the hole
-        {
             PlayerWon();
-            winStatus = true;   
-        }
     }
 }
