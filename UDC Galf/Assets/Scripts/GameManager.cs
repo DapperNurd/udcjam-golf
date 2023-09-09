@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] BallMovement Ball;
+    [SerializeField] GameObject WinMenu;
 
     void Awake() {
         QualitySettings.vSyncCount = 0;  // VSync must be disabled
@@ -19,6 +21,9 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Ball.winStatus == true)
+        {
+            WinMenu.SetActive(true);
+        }
     }
 }

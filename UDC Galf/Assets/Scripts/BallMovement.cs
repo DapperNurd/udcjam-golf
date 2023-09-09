@@ -8,7 +8,7 @@ using UnityEngine.Rendering;
 
 public class BallMovement : MonoBehaviour
 {
-
+    public bool winStatus = false;
     Rigidbody2D rb;
     CircleCollider2D col;
 
@@ -66,7 +66,10 @@ public class BallMovement : MonoBehaviour
 
     IEnumerator CheckWin(float seconds) {
         yield return new WaitForSeconds(seconds);
-        if(col.IsTouchingLayers(LayerMask.GetMask("Goal"))) // Returns whether it is or isn't a second later to make sure it stayed in the hole
+        if (col.IsTouchingLayers(LayerMask.GetMask("Goal"))) // Returns whether it is or isn't a second later to make sure it stayed in the hole
+        {
             PlayerWon();
+            winStatus = true;   
+        }
     }
 }
