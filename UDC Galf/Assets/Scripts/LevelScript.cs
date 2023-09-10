@@ -29,4 +29,14 @@ public class LevelScript : MonoBehaviour
     {
         SceneManager.LoadScene("Level5");
     }
+
+    public void PlayLevel6()
+    {
+        SceneManager.LoadScene("Level6");
+    }
+
+    public void PlayLevel7()
+    {
+        SceneManager.LoadScene("Level7");
+    }
 }
