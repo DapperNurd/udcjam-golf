@@ -1,0 +1,3127 @@
+fileFormatVersion: 2
+guid: b6bb87c41a3ed9e499defd29d20a6a06
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1f534565c029f4b849402e91f0416b
+      internalID: -1885128754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4c0bcb2ed25744582870e8748d736b
+      internalID: 513884506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d096d49c26ac749bfb25f7b8a91794
+      internalID: -2077207624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1343c2821957b0540a1709565ef382a6
+      internalID: -432569655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86039af16c77b304abd335a36fd111e1
+      internalID: -372360726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebb1af9238418f428e2ad6b03238295
+      internalID: 477192891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883156c24ef96204cb3dede0e2ece7b9
+      internalID: -1705855346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742bce5f0c711d242aebccb7cbf13729
+      internalID: -930637531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2d64a588260ba46a9f5f02cc8b1f7c
+      internalID: -798006920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad05e3a71bdbb144ba87fe28c5ba28a2
+      internalID: -573056736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d933b0a321668654195c8914cbc992f9
+      internalID: 2121845722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7f5795f1899bd40904325a1c3cefb2
+      internalID: -30215956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63df1180ae7c1cc40ab7eb21f84ed95b
+      internalID: 1889077019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89480b761d76a1647a1dae82f596d74b
+      internalID: -193562987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02641ac2aa65a9a40a1cc650365b55af
+      internalID: 2056888537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041345c434d820243bd384092202e409
+      internalID: 614477606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574bb8fb6fe49c14db1c81353dede615
+      internalID: 2107515773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_17
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c68d31146e86964d86b0ef35a9ce6b7
+      internalID: -1088092406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a581d7e5fa29245bd7f9271ad56bfb
+      internalID: 1300773787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9671d4adb7543e418972afd0ff6551f
+      internalID: -1565275446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7469c694123fd0408613afbab0fb963
+      internalID: -2024157150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075b9feff7ddc6e4da0ad37178193ecd
+      internalID: 434480209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3701515880e85f441994f532b3695ca3
+      internalID: -20853535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f420568e6ba7749ab0a7a72e29dff2
+      internalID: 1255986620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26b801dcc6fb6c41af67cfc2999dddf
+      internalID: -1501361831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91340a4066e265b4c9ad1e1465475cd8
+      internalID: -1860393399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729730f6bd8b22f4298218aa23978d04
+      internalID: -649978824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_27
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1f111159312cd469e6c348151743fc
+      internalID: -787450510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef18f0437bba9614197cf77fec87023b
+      internalID: -535341230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_29
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64409e240b914a44b00f6539123a393
+      internalID: 1100059526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0862c6846d0b574ab01a8e95078f441
+      internalID: -1231205887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f74af68c52a62419c6a5d928572cd3
+      internalID: 1776532421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81250e30421c16048828a7ae29b3f201
+      internalID: 1624658694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_33
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9c345f0f094224ab06f849615fbe5c
+      internalID: 1579824309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbadee0f5fb38ad46a2287a390c443d6
+      internalID: -677498239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_35
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada97e3131ce1f148ac47c19aba16ceb
+      internalID: -677789477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_36
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e0a17d555b78d4e88d205090199e6b
+      internalID: -122760769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_37
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1130c610a786c449c66770c6326ae4
+      internalID: -2097683628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb20567766b3d1f4fb94326cf9c8e29b
+      internalID: -859006199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_39
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d8e47574150e04b9228b059b37375b
+      internalID: 403619096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36cf726c86c911449b4dffd1ec5e4c8
+      internalID: -761192416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352e72e1398442a40a01d5d73a86a77e
+      internalID: -1768671161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed0905829981cb4ab479d3829c7579c
+      internalID: 1455686491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553ae11f395f1a9478bd9ce081e72d13
+      internalID: 1254411937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2870a675b42b13141a9df4f1f9414ac1
+      internalID: -1173932525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e454fc3bf7dfd45adaa74e6c0ab170
+      internalID: -1375180724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ddb314b760ca3408fa0df4a6076bd3
+      internalID: -80263806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_47
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f70611926790b43b9a4211bbfeb4b5
+      internalID: 1738919516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5522078d4365941ad6785de3736221
+      internalID: -588781680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_49
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b71c942bd6fb74a8520c20d1368e67
+      internalID: 133602564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d910df3f97f09e41b562e9fbc70ede0
+      internalID: 1137982283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_51
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660bceb1af0cd114d809d8db072a2c1f
+      internalID: -747903675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_52
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991320453ebd40a44b02dbb7b25a7b2e
+      internalID: 439303481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_53
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7592230290e9e7c46849bd1408e37435
+      internalID: 744336204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_54
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07e1b31395ef3741a4dcab3cca6e37a
+      internalID: -1930998875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_55
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912761c4bee7f4e40b38cc3d68ffb44e
+      internalID: -844647128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_56
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bf6dec46dc9114cafd14d33eff66e3
+      internalID: 558809505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_57
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a695ce82e952a48a4c18c928459860
+      internalID: -695194175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc77b55b37fd5ac469b33ef3c02d1da7
+      internalID: 684353149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morning_adventures_tileset_16x16_59
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 2}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -5}
+        - {x: -2, y: -5}
+        - {x: -2, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d6c919d664eb547afbd9c0107e68a0
+      internalID: 1270335265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      morning_adventures_tileset_16x16_0: -1885128754
+      morning_adventures_tileset_16x16_1: 513884506
+      morning_adventures_tileset_16x16_10: 2121845722
+      morning_adventures_tileset_16x16_11: -30215956
+      morning_adventures_tileset_16x16_12: 1889077019
+      morning_adventures_tileset_16x16_13: -193562987
+      morning_adventures_tileset_16x16_14: 2056888537
+      morning_adventures_tileset_16x16_15: 614477606
+      morning_adventures_tileset_16x16_16: 2107515773
+      morning_adventures_tileset_16x16_17: -1088092406
+      morning_adventures_tileset_16x16_18: 1300773787
+      morning_adventures_tileset_16x16_19: -1565275446
+      morning_adventures_tileset_16x16_2: -2077207624
+      morning_adventures_tileset_16x16_20: -2024157150
+      morning_adventures_tileset_16x16_21: 434480209
+      morning_adventures_tileset_16x16_22: -20853535
+      morning_adventures_tileset_16x16_23: 1255986620
+      morning_adventures_tileset_16x16_24: -1501361831
+      morning_adventures_tileset_16x16_25: -1860393399
+      morning_adventures_tileset_16x16_26: -649978824
+      morning_adventures_tileset_16x16_27: -787450510
+      morning_adventures_tileset_16x16_28: -535341230
+      morning_adventures_tileset_16x16_29: 1100059526
+      morning_adventures_tileset_16x16_3: -432569655
+      morning_adventures_tileset_16x16_30: -1231205887
+      morning_adventures_tileset_16x16_31: 1776532421
+      morning_adventures_tileset_16x16_32: 1624658694
+      morning_adventures_tileset_16x16_33: 1579824309
+      morning_adventures_tileset_16x16_34: -677498239
+      morning_adventures_tileset_16x16_35: -677789477
+      morning_adventures_tileset_16x16_36: -122760769
+      morning_adventures_tileset_16x16_37: -2097683628
+      morning_adventures_tileset_16x16_38: -859006199
+      morning_adventures_tileset_16x16_39: 403619096
+      morning_adventures_tileset_16x16_4: -372360726
+      morning_adventures_tileset_16x16_40: -761192416
+      morning_adventures_tileset_16x16_41: -1768671161
+      morning_adventures_tileset_16x16_42: 1455686491
+      morning_adventures_tileset_16x16_43: 1254411937
+      morning_adventures_tileset_16x16_44: -1173932525
+      morning_adventures_tileset_16x16_45: -1375180724
+      morning_adventures_tileset_16x16_46: -80263806
+      morning_adventures_tileset_16x16_47: 1738919516
+      morning_adventures_tileset_16x16_48: -588781680
+      morning_adventures_tileset_16x16_49: 133602564
+      morning_adventures_tileset_16x16_5: 477192891
+      morning_adventures_tileset_16x16_50: 1137982283
+      morning_adventures_tileset_16x16_51: -747903675
+      morning_adventures_tileset_16x16_52: 439303481
+      morning_adventures_tileset_16x16_53: 744336204
+      morning_adventures_tileset_16x16_54: -1930998875
+      morning_adventures_tileset_16x16_55: -844647128
+      morning_adventures_tileset_16x16_56: 558809505
+      morning_adventures_tileset_16x16_57: -695194175
+      morning_adventures_tileset_16x16_58: 684353149
+      morning_adventures_tileset_16x16_59: 1270335265
+      morning_adventures_tileset_16x16_6: -1705855346
+      morning_adventures_tileset_16x16_7: -930637531
+      morning_adventures_tileset_16x16_8: -798006920
+      morning_adventures_tileset_16x16_9: -573056736
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

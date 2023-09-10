@@ -7,6 +7,6 @@ public class LevelScript : MonoBehaviour
 {
     public void PlayLevel1()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Level1");
     }
 }

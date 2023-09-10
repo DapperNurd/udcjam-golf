@@ -42,6 +42,10 @@ public class BallMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, 0);
             rb.AddForce(Vector2.up * 50f, ForceMode2D.Impulse);
         }
+        else if(col.tag == "Spike")
+        {
+            Reset();
+        }
     }
 
     void OnTriggerExit2D(Collider2D col)
